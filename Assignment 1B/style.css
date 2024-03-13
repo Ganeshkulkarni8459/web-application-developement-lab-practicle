@@ -1,0 +1,51 @@
+/* Add your custom CSS styles here */
+
+/* Center modal vertically */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for modal form */
+.modal-content {
+    width: 80%;
+}
+
+/* Style for modal header */
+.modal-header {
+    background-color: #353235;
+    color: #f6f1f1;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Style for modal title */
+.modal-title {
+    font-size: 1.25rem;
+}
+
+/* Style for modal body */
+.modal-body {
+    padding: 1rem;
+}
+
+/* Style for form labels */
+label {
+    font-weight: bold;
+}
+
+/* Style for buttons */
+.btn-outline-success {
+    margin-top: 1rem;
+}
+
+/* Style for table header */
+.table-dark th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Style for table rows */
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
